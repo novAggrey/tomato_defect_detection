@@ -11,15 +11,13 @@ The project deals with importation of tomato plant leaf images and analyzes, pre
 
 ## DATASETS DESCRIPTION:
 #### Healthy:
-- There is a total of 1273 healthy leaf images.
+- Is a tomato plant with no defects.
 
 #### Late Blight:
 - Is a potentially devastating disease of tomato and potato, infecting leaves, stems, tomato fruit and potato tubers. The disease spreads quickly in fields and can result in total crop failure if untreated.
-- There is a total of 1528 Late Blight leaf images.
 
 #### Septoria:
 - Septoria Leaf Spot is caused by a fungus called Septoria Lycopersici. It is one of the foliage and is particularly severe in areas where wet, humid weather persists for extended periods. Septoria leaf spot usually appears on the lower leaves after the first fruit sets.
-- There is a total of 1417 septoria leaf images.
 
 ## HOW TO RUN THE CODE.
 1. Download and extract the code.
