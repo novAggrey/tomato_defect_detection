@@ -82,19 +82,16 @@ if file:
     st.image(image, caption='fig. This is the Image you Imported', width=350)
     if st.button("PREDICT"):
         img = tensorflow.keras.preprocessing.image.img_to_array(image)
-        if img.shape[1] > 500:
-            component.html(invalid)
-        else:
-            img = cv2.resize(img,(50,50))
-            img = tensorflow.expand_dims(img,0)/255
-            pred_class = model.predict(img)
-            pred = np.argmax(pred_class)
+        img = cv2.resize(img,(50,50))
+        img = tensorflow.expand_dims(img,0)/255
+        pred_class = model.predict(img)
+        pred = np.argmax(pred_class)
 
-            if pred==0:
-                component.html(results_0)
+        if pred==0:
+            component.html(results_0)
 
-            elif pred==1:
-                component.html(results_1)
-                    
-            elif pred==2:
-                component.html(results_2)  
+        elif pred==1:
+            component.html(results_1)
+            
+        elif pred==2:
+            component.html(results_2)  
