@@ -10,6 +10,9 @@ Affected by various factors of the environment, tomato defects occur frequently 
 The project deals with importation of tomato plant leaf images and analyzes, predicts the status of the respective tomato plant whether it is in a healthy condition or there is any defect associated with it, then display the name of the defect and some few description of the defect predicted.
 
 ## DATASETS DESCRIPTION:
+The dataset may be found in kaggle. Click [here](https://www.kaggle.com/datasets/emmarex/plantdisease) to view the dataset.
+The chosen dataset for project was only for HEALTHY, LATE BLIGHT and SEPTORIA tomato plant leaf images.
+
 #### Healthy:
 - Is a tomato plant with no defects.
 
